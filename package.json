@@ -1,0 +1,14 @@
+{
+  "name": "rollup-product",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle:scripts": "rollup src/main.js --o dist/bundle.js --f iife"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^0.54.0"
+  }
+}
